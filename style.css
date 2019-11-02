@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    font-family: monospace;
+}
+
+
+body {
+    
+    background-image: url(file:///home/kri5y/Documents/code/mila/background.jpg);
+    
+}
+
+header {
+   position: relative;
+   width: 100vw;
+   height: 100vh;
+   
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    
+}
+
+p {
+    width: 100%;
+    text-align: center;
+    margin: 1rem
+    
+    
+    
+}
+
+header > h1 {
+
+    position: absolute;
+    left: 50%;
+    top: 22%;
+    transform: translate(-50%, -50%);
+    font-size: 3rem;
+    width: 100%;
+
+
+} 
+
+
+
+nav {
+
+    position: relative;
+    width: 100vw;
+    font-size: 2em;
+    text-align: center;
+    line-break: auto;
+    background-color: #007D40;
+}
+
+nav > a {
+
+    font-size: 1.5em;
+    color: white;
+    font-variant: small-caps
+    
+    
+}
+
+
+h1, h2 {
+
+    text-align: center;
+    margin: 5vh;
+
+}
+
+h1 {
+
+    font-size: 2.5em;
+
+}
+
+h2 {
+    
+    font-size: 2em;
+    
+}
+
+
+.content {
+
+    height: 30vh;
+    width: 100vw;
+
+}
+
+
+
+footer {
+    width: 100wv;
+    height: 3vh;
+    text-align: center;
+    color: white;
+}
+
+th {
+    
+    width: 100vw;
+    text-align: center;
+    
+}
+tr {
+    
+    text-align: center;
+    margin: 3em;
+    margin-left: 3vh;
+    margin-right: 3vh;
+    background-color: white;
+    
+}
+
+tr:nth-child(){
+    
+    color: white;
+    background-color: #007D40;
+}
+
+#aboutus {
+    
+    background-color: white;
+    
+}
